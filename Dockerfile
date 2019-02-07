@@ -14,7 +14,7 @@ EXPOSE 8081
 ARG JAR_FILE=target/spring-boot-docker-sample-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} spring-boot-docker-test.jar
+ADD ${JAR_FILE} spring-boot-docker-sample.jar
 
 # Run the jar file
 ENTRYPOINT ["java","-jar","/spring-boot-docker-sample.jar"]

@@ -23,5 +23,8 @@ class HelloController {
     public String sayHello() {
         return "Hello";
     }
-
+    @GetMapping(value = "/")
+    public String sayHello1() {
+        return "Hello";
+    }
 }
